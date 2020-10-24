@@ -193,6 +193,11 @@ li {
   margin-bottom: 24px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* name */
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -222,6 +227,10 @@ h1 {
   margin-bottom: 24px;
 }
 
+.text li {
+  margin-bottom: 0;
+}
+
 /* education */
 .education {
   margin-bottom: 72px;
@@ -230,7 +239,7 @@ h1 {
 /* skill */
 .skills {
   background-color: #415165;
-  padding-top: 24px;
+  padding: 24px 0 36px;
   margin-bottom: 72px;
 }
 
@@ -241,12 +250,12 @@ h1 {
 
 .list {
   border-left: 1px solid #fff;
-  margin: 0 0 36px 496px;
-  display: inline-block;
+  width: 202px;
+  padding-left: 24px;
+  margin: 0 auto;
 }
 
 .list li {
-  padding-left: 24px;
   color: #FFF;
   font-weight: 300;
 }
@@ -297,14 +306,17 @@ h1 {
   text-align: center;
 }
 
-.sns img {
+.sns li {
   display: inline-block;
-  width: 48px;
-  height: 48px;
   font-size: 0px;
   margin: 0 24px 36px 0;
 }
 
-.sns img:last-child {
+.sns li:last-child {
   margin-right: 0;
+}
+
+.sns a {
+  width: 48px;
+  height: 48px;
 }
