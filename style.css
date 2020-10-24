@@ -250,12 +250,13 @@ h1 {
 
 .list {
   border-left: 1px solid #fff;
-  width: 202px;
+  width: 192px;
   padding-left: 24px;
   margin: 0 auto;
 }
 
 .list li {
+  font-family: 'Roboto', sans-serif;
   color: #FFF;
   font-weight: 300;
 }
